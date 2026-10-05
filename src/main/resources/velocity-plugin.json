@@ -1,9 +1,9 @@
 {
   "id": "mnf-check",
-  "name": "mnf-check",
+  "name": "manifest-check",
   "version": "${version}",
   "main": "org.MNFcheck",
   "authors": [
-    "nothing_developer"
+    "hakiguru"
   ]
 }

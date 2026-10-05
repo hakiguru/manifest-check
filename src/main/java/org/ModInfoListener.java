@@ -36,12 +36,10 @@ public class ModInfoListener {
         forget(player.getUniqueId());
 
         ProtocolVersion version = player.getProtocolVersion();
-        String host = player.getVirtualHost()
-                .map(address -> clean(address.getHostString()))
-                .orElse("не указан");
-        logger.info("[MNF-check] {} зашёл: версия {} (протокол {}), адрес входа: {}",
-                player.getUsername(), String.join("/", version.getVersionsSupportedBy()),
-                version.getProtocol(), host);
+        logger.info("[MNF-check] {} joined the server: version {} (protocol {})",
+                player.getUsername(),
+                String.join("/", version.getVersionsSupportedBy()),
+                version.getProtocol());
     }
 
     // Client brand ("vanilla", "fabric", "forge", ...) is sent by every client, but it is
@@ -89,7 +87,7 @@ public class ModInfoListener {
 
     // Brand and mod list come from the client as is: remove line breaks and escape codes
     // and limit the length so they can't break or flood the log
-    private static String clean(String value) {
+    static String clean(String value) {
         if (value == null) {
             return "<no>";
         }

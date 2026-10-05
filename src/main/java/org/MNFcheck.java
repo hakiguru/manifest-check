@@ -21,5 +21,6 @@ public class MNFcheck {
     public void onProxyInitialization(ProxyInitializeEvent event) {
         logger.info("MNF-check is started. MODE: diagnostic");
         server.getEventManager().register(this, new ModInfoListener(logger));
+        server.getEventManager().register(this, new HelloListener(logger));
     }
 }
