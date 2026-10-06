@@ -1,1 +1,1 @@
-rootProject.name = "mnf-check-velocity"
+rootProject.name = "mnf_check_velocity"

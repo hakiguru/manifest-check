@@ -1,5 +1,5 @@
 {
-  "id": "mnf-check",
+  "id": "mnf_check_velocity",
   "name": "manifest-check",
   "version": "${version}",
   "main": "org.MNFcheck",

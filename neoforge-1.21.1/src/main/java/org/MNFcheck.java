@@ -14,7 +14,7 @@ import org.slf4j.Logger;
 
 @Mod(MNFcheck.MODID)
 public class MNFcheck {
-    public static final String MODID = "mnf_check";
+    public static final String MODID = "mnf_check_neoforge";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public MNFcheck(IEventBus modEventBus, ModContainer modContainer) {
