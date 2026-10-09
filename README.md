@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/icons/velocity-dark-theme.png"><img src=".github/icons/velocity.png" alt="Velocity" height="24"></picture> Velocity plugin + <img src=".github/icons/neoforge.png" alt="NeoForge" height="24"> NeoForge mod that tells the proxy which modpack, modloader, MCversion a player is using.
+  Velocity plugin + NeoForge mod that tells the proxy which modpack, modloader, MCversion a player is using.
 </p>
 
 <p align="center">
